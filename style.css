@@ -62,8 +62,16 @@ h2 {
   border-color: var(--success-color);
 }
 
+.form-control.success label {
+  color: var(--success-color);
+}
+
 .form-control.error input {
   border-color: var(--error-color);
+}
+
+.form-control.error label {
+  color: var(--error-color);
 }
 
 .form-control small {
